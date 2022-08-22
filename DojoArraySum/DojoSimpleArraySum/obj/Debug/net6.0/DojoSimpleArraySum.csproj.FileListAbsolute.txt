@@ -1,0 +1,15 @@
+C:\Users\willian.melo\Documents\Studies\Dojo\DojoArraySum\DojoSimpleArraySum\bin\Debug\net6.0\DojoSimpleArraySum.exe
+C:\Users\willian.melo\Documents\Studies\Dojo\DojoArraySum\DojoSimpleArraySum\bin\Debug\net6.0\DojoSimpleArraySum.deps.json
+C:\Users\willian.melo\Documents\Studies\Dojo\DojoArraySum\DojoSimpleArraySum\bin\Debug\net6.0\DojoSimpleArraySum.runtimeconfig.json
+C:\Users\willian.melo\Documents\Studies\Dojo\DojoArraySum\DojoSimpleArraySum\bin\Debug\net6.0\DojoSimpleArraySum.dll
+C:\Users\willian.melo\Documents\Studies\Dojo\DojoArraySum\DojoSimpleArraySum\bin\Debug\net6.0\DojoSimpleArraySum.pdb
+C:\Users\willian.melo\Documents\Studies\Dojo\DojoArraySum\DojoSimpleArraySum\obj\Debug\net6.0\DojoSimpleArraySum.csproj.AssemblyReference.cache
+C:\Users\willian.melo\Documents\Studies\Dojo\DojoArraySum\DojoSimpleArraySum\obj\Debug\net6.0\DojoSimpleArraySum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willian.melo\Documents\Studies\Dojo\DojoArraySum\DojoSimpleArraySum\obj\Debug\net6.0\DojoSimpleArraySum.AssemblyInfoInputs.cache
+C:\Users\willian.melo\Documents\Studies\Dojo\DojoArraySum\DojoSimpleArraySum\obj\Debug\net6.0\DojoSimpleArraySum.AssemblyInfo.cs
+C:\Users\willian.melo\Documents\Studies\Dojo\DojoArraySum\DojoSimpleArraySum\obj\Debug\net6.0\DojoSimpleArraySum.csproj.CoreCompileInputs.cache
+C:\Users\willian.melo\Documents\Studies\Dojo\DojoArraySum\DojoSimpleArraySum\obj\Debug\net6.0\DojoSimpleArraySum.dll
+C:\Users\willian.melo\Documents\Studies\Dojo\DojoArraySum\DojoSimpleArraySum\obj\Debug\net6.0\refint\DojoSimpleArraySum.dll
+C:\Users\willian.melo\Documents\Studies\Dojo\DojoArraySum\DojoSimpleArraySum\obj\Debug\net6.0\DojoSimpleArraySum.pdb
+C:\Users\willian.melo\Documents\Studies\Dojo\DojoArraySum\DojoSimpleArraySum\obj\Debug\net6.0\DojoSimpleArraySum.genruntimeconfig.cache
+C:\Users\willian.melo\Documents\Studies\Dojo\DojoArraySum\DojoSimpleArraySum\obj\Debug\net6.0\ref\DojoSimpleArraySum.dll
