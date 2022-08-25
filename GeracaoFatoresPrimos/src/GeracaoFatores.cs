@@ -17,21 +17,32 @@ public class GeracaoFatores
     */
     private string EncontrarFatores(int numeroInteiro)
     {
-        var proximoResultado = numeroInteiro;
+       var proximoResultado = numeroInteiro;
+       var fatores = string.Empty;
 
         int i = 2;
         
         while(i < numeroInteiro)
         {
-            if (!VerificarPrimo(i)) continue;
+            if (!VerificarPrimo(i)) 
+            {
+                i++;
+                continue;
+            }
 
             var resultadoTemp = proximoResultado/i;
 
-            proximoResultado = resultadoTemp;
+          
 
-            if (resultadoTemp % i != 0)
+            if (proximoResultado % i != 0)
             {
                 i++;
+            }
+            else
+            {
+                proximoResultado = resultadoTemp;
+
+                fatores += $"{i}x";
             }
 
             if(resultadoTemp == 1)
@@ -40,14 +51,15 @@ public class GeracaoFatores
             }
         }
 
-        return numeroInteiro == 100 ? "2x2x5x5" : "2x3";
+        return fatores;
+        //numeroInteiro == 100 ? "2x2x5x5" : "2x3";
     }
 
     public bool VerificarPrimo(int numeroInteiroPrimo)
     {
-        int fator = numeroInteiroPrimo / 2;
+        //int fator = numeroInteiroPrimo / 2;
 
-        for (var i = 2; i < fator; i++)
+        for (var i = 2; i < numeroInteiroPrimo; i++)
         {
             if (numeroInteiroPrimo % i == 0)
                 return false;
