@@ -4,18 +4,27 @@ public class Translator
 {
     private IDictionary<string, string> _translators = new Dictionary<string, string>
     {
-        { "ABC" , "2"}
+        { "A" , "2"},
+        { "B" , "22"},
+        { "C" , "222"}
     };
 
     public string Interprete(string word)
     {
         //_translators.TryGetValue(word, out var expected);
         var expected = string.Empty;
-        foreach (var item in word)
+        var previousKey = string.Empty;
+
+        foreach (var letter in word)
         {
-            var keyValue = GetKeyValuePair(item);
-            var quantity = keyValue.Key.IndexOf(item) + 1;
+            var keyValue = GetKeyValuePair(letter);
+            //var quantity = keyValue.Key.IndexOf(letter) + 1;
+
+            if(keyValue.Value.Length > 1 && keyValue.Value.Equals(previousKey[0]))
+                expected += "_";
+
             expected += keyValue.Value;
+            previousKey = keyValue.Value[0].ToString();
         }
 
         return expected;
