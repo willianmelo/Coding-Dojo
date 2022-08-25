@@ -35,7 +35,7 @@ namespace tests{
         }
 
         [Theory]
-       // [InlineData(6,"2x3")]
+        [InlineData(33,"3x11")]
         [InlineData(100,"2x2x5x5")]
         public void RetornarPrimos_consegue_calcular_fatores_para_nao_primos(int numeroInteiro, string resultadoDeveria)
         {
