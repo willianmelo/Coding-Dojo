@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{738F62FA-5BA9-4612-86B9-5E0CCA0ECCBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerificandoDiferencaEntreStrings", "src\VerificandoDiferencaEntreStrings\VerificandoDiferencaEntreStrings.csproj", "{631B51E0-4F27-47C5-90B1-A494D9432942}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{06FFFA60-23DF-492A-B879-13B7A9A42FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerificandoDiferencaEntreStrings.Tests", "test\VerificandoDiferencaEntreStrings.Tests\VerificandoDiferencaEntreStrings.Tests.csproj", "{0C067912-2298-4634-BFCC-136F998D064F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{631B51E0-4F27-47C5-90B1-A494D9432942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631B51E0-4F27-47C5-90B1-A494D9432942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631B51E0-4F27-47C5-90B1-A494D9432942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631B51E0-4F27-47C5-90B1-A494D9432942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C067912-2298-4634-BFCC-136F998D064F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C067912-2298-4634-BFCC-136F998D064F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C067912-2298-4634-BFCC-136F998D064F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C067912-2298-4634-BFCC-136F998D064F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{631B51E0-4F27-47C5-90B1-A494D9432942} = {738F62FA-5BA9-4612-86B9-5E0CCA0ECCBA}
+		{0C067912-2298-4634-BFCC-136F998D064F} = {06FFFA60-23DF-492A-B879-13B7A9A42FB2}
+	EndGlobalSection
+EndGlobal
