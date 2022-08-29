@@ -4,6 +4,34 @@ import (
 	"testing"
 )
 
+type testPair struct {
+	scoreA            []int32
+	scoreB            []int32
+	resultadoEsperado []int32
+}
+
+var tests = []testPair{
+	{[]int32{5, 5, 5}, []int32{1, 1, 1}, []int32{3, 0}},
+	{[]int32{1, 1, 1}, []int32{5, 5, 5}, []int32{0, 3}},
+	{[]int32{1, 97, 3}, []int32{1, 97, 3}, []int32{0, 0}},
+	{[]int32{2, 97, 3}, []int32{1, 90, 5}, []int32{2, 1}},
+}
+
+func Test_TodosCenarios(t *testing.T) {
+	for _, pair := range tests {
+		resultado := Comparador(pair.scoreA, pair.scoreB)
+		for i := 0; i < 2; i++ {
+			if resultado[i] != pair.resultadoEsperado[i] {
+				t.Error(
+					"Pontuação", i,
+					"Esperado", pair.resultadoEsperado[i],
+					"Obteve", resultado[i],
+				)
+			}
+		}
+	}
+}
+
 func Test_AliceMelhorPontuacao(t *testing.T) {
 	// Arrange
 	pontuacaoAlice := []int32{5, 5, 5}
