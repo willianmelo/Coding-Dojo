@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func Comparador(a []int32, b []int32) []int32 {
 	var scoreA int32 = 0
 	var scoreB int32 = 0
@@ -13,4 +15,9 @@ func Comparador(a []int32, b []int32) []int32 {
 	}
 
 	return []int32{scoreA, scoreB}
+}
+
+func main() {
+	comparacao := Comparador([]int32{5, 5, 5}, []int32{1, 1, 1})
+	fmt.Println(comparacao)
 }
