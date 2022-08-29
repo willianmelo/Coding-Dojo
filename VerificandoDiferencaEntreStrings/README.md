@@ -1,3 +1,3 @@
-Desafio retirado do DojoPuzzles.
+Desafio retirado do hackerrank.
 
-Segue o link: https://dojopuzzles.com/problems/verificando-diferenca-entre-strings/
+https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=true

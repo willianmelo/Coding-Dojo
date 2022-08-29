@@ -2,7 +2,9 @@ namespace Comparador.Tests;
 
 public class ComparadorTests
 {
-    [Fact]
+    [Theory]
+    [InlineData("Teste","Test")]
+    [InlineData("Testeeeeee","Test")]
     public void Comparar_RetornaLetraDiferente_QuandoPalavrasSãoDiferentes()
     {
         const string frase1 = "Teste";
