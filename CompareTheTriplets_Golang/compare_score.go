@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func Comparador(a []int32, b []int32) []int32 {
 	var scoreA int32 = 0
@@ -20,4 +23,5 @@ func Comparador(a []int32, b []int32) []int32 {
 func main() {
 	comparacao := Comparador([]int32{5, 5, 5}, []int32{1, 1, 1})
 	fmt.Println(comparacao)
+	time.Sleep(8 * time.Second)
 }
