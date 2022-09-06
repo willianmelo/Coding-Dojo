@@ -1,0 +1,3 @@
+- Dado N nomes em uma lista a aplicação sortea de forma randômica.
+- Se a randomização calcular a mesma sequência, sortear novamente.
+- Quando houver somente um registro, retornar ele mesmo.
