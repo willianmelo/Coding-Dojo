@@ -92,20 +92,5 @@ public class ContadorVelasTests
         //Assert
         Assert.Equal(esperado, resultado);
     }
-
-    [Fact]
-    public void ObterMaior_UmaListVazia_RetornarZero()
-    {
-        //Arrange
-        var velas = new List<int>();
-
-        var esperado = 0;
-
-        //Act
-        var resultado = _calculadoraVelas.ObterMaior(velas);
-
-        //Assert
-        Assert.Equal(esperado, resultado);
-    }
 }
 
